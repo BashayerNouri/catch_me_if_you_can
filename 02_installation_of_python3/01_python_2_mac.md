@@ -1,7 +1,5 @@
 ﻿Now, in the following sections, you will learn how to install `python 3` in your system. `Python 3` is the newest version of the Python programming language.
 
-Go to your Operating System section.
-
 ## Mac OS
 
 ### What is `Homebrew`?

@@ -19,9 +19,9 @@ Right now all the cards are in the  `backlog`  list because we haven't started w
 Before you can move the cards, you need to copy the board into your account. This'll help you figure out how to do that  [copying boards](https://help.trello.com/article/802-copying-cards-lists-or-boards). Go to the "Boards" section.
 
 **For a summary. you need to:**
-1.  Open the  `Show Menu`  on the right corner of the screen
+1.  Open the  "`Show Menu`"  on the right corner of the screen
 2.  Click "`More`"
-3.  Click"`Copy Board`"
+3.  Click "`Copy Board`"
 4.  Add a title "`Catch Me If You Can`"
 5.  Click "`Create`"
 
