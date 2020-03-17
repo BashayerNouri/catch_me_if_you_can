@@ -15,9 +15,9 @@ way.
 
 **What will you use during this project:**
 
- - `Python:` For developing the game.
+ - `Python:` a programming language for developing the game.
  - `Trello:` a list-making application to keep track of your work.
- - `Command Prompt/Terminal:` Basic usage of the Terminal commands.
+ - `Command Prompt/Terminal:` basic usage of the Command-line commands.
  - `Git:` a version-control system for tracking the changes we're making
    to the code.
  
