@@ -1,7 +1,7 @@
 ﻿## **How to open the command-line ?**
 
 
-### Windows (CMD/Command Prompt):
+### Windows (Command Prompt/CMD):
 
 1.  Hit the  `Windows`  key on the keyboard (should be next to your left  `Alt`  key)
 

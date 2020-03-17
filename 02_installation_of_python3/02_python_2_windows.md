@@ -3,8 +3,6 @@
 
 ### What is `Chocolatey`?
 
-![Image result for Chocolatey transparent](https://learn-inside.com/wp-content/uploads/2019/09/chocolate-feature-800x400.png)
-
 `Chocolatey` is a command line application installer for Windows. Unlike manual installations, `Chocolatey` adds, updates, and uninstalls programs in the background requiring very little user interaction
 
 For more informations, [click here](https://chocolatey.org/about).
@@ -47,5 +45,4 @@ If you don't already have `Python 3` installed, you need to do the following.
   
  3. Wait a few seconds for the command to complete.
  
- 4. If you don't see any errors, than congratulation!
-
+ 4. If you don't see any errors, congratulation!
