@@ -17,7 +17,7 @@ way.
 
  - `Python:` a programming language for developing the game.
  - `Trello:` a list-making application to keep track of your work.
- - `Command Prompt/Terminal:` basic usage of the Command-line commands.
+ - `Command Prompt/Terminal:` basic usage of the command-line commands.
  - `Git:` a version-control system for tracking the changes we're making
    to the code.
  
