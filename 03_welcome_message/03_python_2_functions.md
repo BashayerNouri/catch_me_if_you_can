@@ -66,7 +66,7 @@ def my_function_with_args(username, greeting):
 >>> Hello, Bashayer Nouri. I wish you a great year!
 ```
 
-Functions may return a value to the caller, using the keyword  'return' . 
+Functions may return a value to the caller, using the keyword  ```return``` . 
 
 ***For example:***
     
