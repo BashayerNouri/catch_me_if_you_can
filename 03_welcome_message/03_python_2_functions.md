@@ -46,7 +46,9 @@ def my_function():
 
  
  ***Output:***
-![1](https://i.ibb.co/tZP0H7C/1.png)
+```
+>>> Hello, World!
+```
 
 Functions may also receive arguments (variables passed from the caller to the function). 
 
@@ -59,7 +61,10 @@ def my_function_with_args(username, greeting):
 
 
  ***Output:***
-![2](https://i.ibb.co/jrBTqW6/2.png)
+
+```
+>>> Hello, Bashayer Nouri. I wish you a great year!
+```
 
 Functions may return a value to the caller, using the keyword  'return' . 
 
