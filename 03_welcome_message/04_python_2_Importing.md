@@ -1,6 +1,9 @@
 ﻿Sometimes you need to use functions that are in other files or libraries. To use these functions we need to import them first.
 
-    from <Library> import <FUNCTION>
+```python
+from <Library> import <FUNCTION>
+```
+
 
 ***Example:***
 
@@ -11,9 +14,9 @@ print(pow(2,2))
 ```
 
 ***Output:***
-
-> 4
-
+```
+>>> 4
+```
 
 ---
 ***Importing Rules:***

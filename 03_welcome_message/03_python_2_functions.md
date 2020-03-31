@@ -80,7 +80,7 @@ def sum_two_numbers(a, b):
     
 ### How do you call functions in Python?
 
-Simply write the function's name followed by (), placing any required arguments within the brackets. 
+Simply write the function's name followed by ```()```, placing any required arguments within the brackets. 
 
 ***For example:***
  Lets call the functions written above (in the previous example):
