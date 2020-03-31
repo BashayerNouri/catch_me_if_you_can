@@ -15,19 +15,21 @@ Are you ready? Let's start.
 
 Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the following:
 
-    import time
-    
-    def weclcome_message():
-        messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-        for messsage in messsages:
-            print (messsage)
-            time.sleep(1.3)
-    
-    def main():
-         weclcome_message()
-    
-    if __name__ == '__main__':
-        main()
+```python
+import time
+
+def weclcome_message():
+    messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+    for messsage in messsages:
+        print (messsage)
+        time.sleep(1.3)
+
+def main():
+     weclcome_message()
+
+if __name__ == '__main__':
+    main()
+```
 
 
 
@@ -35,11 +37,14 @@ Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the followin
 
 `weclcome_message` function:
 
-    def weclcome_message():
-        messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-        for messsage in messsages:
-            print (messsage)
-            time.sleep(1.3)
+```python
+def weclcome_message():
+    messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+    for messsage in messsages:
+        print (messsage)
+        time.sleep(1.3)
+```
+
 
 `Variables` are a place to save any type of data.
 
@@ -47,7 +52,10 @@ Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the followin
 
 `messsages` is a variable of a `List` datatype.
 
-    messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+```python
+messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+```
+
 
 **Other Types of variables:**
 `String`  : "I am a string"
@@ -66,9 +74,12 @@ The `for` loop in Python is used to iterate over a sequence ([list](https://www.
 
 Loop continues until we reach the last item in the sequence. 
 
-    messsages = ["Welcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-    for messsage in messsages:
-        print (messsage)
+```python
+messsages = ["Welcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+for messsage in messsages:
+    print (messsage)
+```
+
 
 
 The `for` loop goes through each element in the `messsages` list, saves it in the variable `messsage` (this variable could be named anything) and then execute the code inside the `for` loop.
@@ -85,28 +96,37 @@ I can't hear you but yes we will use `sleep()`  function.
 
 So first we need to import  the python module `time` like this:
 
-    import time
+```python
+import time
+```
+
     
 And than add `time.sleep(1.3)` for a 1.3 delay.
 
 You can play around with this.
 
-    import time
-    
-        def weclcome_message():
-            messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-            for messsage in messsages:
-                print (messsage)
-                time.sleep(1.3)
+```python
+import time
+
+    def weclcome_message():
+        messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+        for messsage in messsages:
+            print (messsage)
+            time.sleep(1.3)
+```
+
 
 Our last step is that we need to call the `welcome message` function.
 
 In `main()` function we will write this:
 
-    def main():
-         weclcome_message()
+```python
+def main():
+     weclcome_message()
+```
 
-And thats it we are done!!! Happy Dance.
+
+And that's it we are done!!! Happy Dance.
 
 ![dance party GIF](https://media3.giphy.com/media/zQLjk9d31jlMQ/200.webp?cid=ecf05e472c14286551df905fbe28db803386d8d62547a372&rid=200.webp)
 

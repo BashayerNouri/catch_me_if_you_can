@@ -17,10 +17,13 @@ Open `wordlist.txt` and read it carefully.
 
 Python has a built-in function  `open()`  to open a file. This function returns a file object, also called a handle, as it is used to read or modify the file accordingly.
 
-```
+
+```python
 >>> f = open("test.txt")    # open file in current directory
 >>> f = open("C:/Python33/README.txt")  # specifying full path
 ```
+
+
 
 We can specify the mode while opening a file. In mode, we specify whether we want to read  `'r'`, write  `'w'`  or append  `'a'`  to the file. We also specify if we want to open the file in text mode or binary mode.
 
@@ -28,7 +31,7 @@ The default is reading in text mode. In this mode, we get strings when reading f
 
 On the other hand, binary mode returns bytes and this is the mode to be used when dealing with non-text files like image or exe files.
 
-```
+```python
 f = open("test.txt")      # equivalent to 'r' or 'rt'
 f = open("test.txt",'w')  # write in text mode
 f = open("img.bmp",'r+b') # read and write in binary mode
@@ -41,7 +44,7 @@ When we are done with operations to the file, we need to properly close the file
 Closing a file will free up the resources that were tied with the file and is done using Python `close()`  method.
 
 
-```
+```python
 f = open("test.txt")
 f.close()
 ```
@@ -51,10 +54,14 @@ we can use `readline()` method to read individual lines of a file. This method r
 
 For example, if we used `readline()` for our `wordlist.txt` file like this:
 
-    file = open("wordlist.txt", "r")
-    words = file.readlines() 
+```python
+file = open("wordlist.txt", "r")
+words = file.readlines()
+```
 
 `words` variable will hold a list that contains `wordlist.txt` words including the newline character:
 
-    ['bed\n', 'wings\n', 'aliens\n', 'bowling\n', 'sleep\n', 'piano\n', 'commercial\n', 'dream\n', 'environment\n', 'magazine\n', 'cinema\n', 'bed\n', 'language']
+```python
+['bed\n', 'wings\n', 'aliens\n', 'bowling\n', 'sleep\n', 'piano\n', 'commercial\n', 'dream\n', 'environment\n', 'magazine\n', 'cinema\n', 'bed\n', 'language']
+```
 

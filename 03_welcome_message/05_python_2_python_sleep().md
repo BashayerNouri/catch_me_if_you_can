@@ -8,13 +8,15 @@ The  `sleep()`  function suspends execution of the current thread for a given nu
 
 ## Example:
 
-```
+```python
 import time
 
 print("Printed immediately.")
 time.sleep(2.4)
 print("Printed after 2.4 seconds.")
+
 ```
+
 
 Here's how this program works:
 

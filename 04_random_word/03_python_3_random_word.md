@@ -3,64 +3,79 @@
 Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the following:
 
     
-    import random
-    
-    def get_random_word():
-        file = open("wordlist.txt", "r")
-        words = file.readlines() 
-        random_word = random.choice(words)
-        random_word = random_word.strip("\n")
-        random_word = random_word.lower()
-        file.close()
-        return random_word
-    
-    random_word = get_random_word()
-    
-    
-    def main():
-    
-    	print("\nThe word contains", len(random_word), 'letters. \n')
-    	print(len(random_word) * " _")
-    
-    if __name__ == '__main__':
-        main()
+```python
+import random
+
+def get_random_word():
+    file = open("wordlist.txt", "r")
+    words = file.readlines() 
+    random_word = random.choice(words)
+    random_word = random_word.strip("\n")
+    random_word = random_word.lower()
+    file.close()
+    return random_word
+
+random_word = get_random_word()
+
+
+def main():
+
+   print("\nThe word contains", len(random_word), 'letters. \n')
+   print(len(random_word) * " _")
+
+if __name__ == '__main__':
+    main()
+```
+
 
 ### Let me explain this code step by step:
 
 **What `get_random_word()` do?** 
 
-    def get_random_word():
-        file = open("wordlist.txt", "r")
-        words = file.readlines() 
-        random_word = random.choice(words)
-        random_word = random_word.strip("\n")
-        random_word = random_word.lower()
-        file.close()
-        return random_word
+```python
+def get_random_word():
+    file = open("wordlist.txt", "r")
+    words = file.readlines() 
+    random_word = random.choice(words)
+    random_word = random_word.strip("\n")
+    random_word = random_word.lower()
+    file.close()
+    return random_word
+```
+
   
   ***First:***
 
-     file = open("wordlist.txt", "r")
-     words = file.readlines() 
+```python
+file = open("wordlist.txt", "r")
+words = file.readlines()
+```
+
 
 `open` will open the `wordlist.txt` file.
  `readlines` will read individual lines of `wordlist.txt` file.
 
 `words` variable will contains the following:
 
-    ['bed\n', 'wings\n', 'aliens\n', 'bowling\n', 'sleep\n', 'piano\n', 'commercial\n', 'dream\n', 'environment\n', 'magazine\n', 'cinema\n', 'bed\n', 'language']
+```python
+['bed\n', 'wings\n', 'aliens\n', 'bowling\n', 'sleep\n', 'piano\n', 'commercial\n', 'dream\n', 'environment\n', 'magazine\n', 'cinema\n', 'bed\n', 'language']
+```
+
 
 ***Second:***
     
-    ---
-    import random
-    ---
-    
-    random_word = random.choice(words)
-    random_word = random_word.strip("\n")
-    random_word = random_word.lower()
-    file.close()
-    return random_word
+```python
+---
+import random
+---
+
+random_word = random.choice(words)
+random_word = random_word.strip("\n")
+random_word = random_word.lower()
+file.close()
+return random_word
+```
+
 
  - The  `random`  module has a set of methods, such as `choice()`  method. You can use it to get a random element or number.
  
@@ -80,10 +95,13 @@ Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the followin
 
 In the `main()` function:
 
-    def main():
-    
-    	print("\nThe word contains", len(random_word), 'letters. \n')
-    	print(len(random_word) * " _")
+```python
+def main():
+
+   print("\nThe word contains", len(random_word), 'letters. \n')
+   print(len(random_word) * " _")
+```
+
 
 
 The `len()` function returns the number of characters in the string.
@@ -97,36 +115,39 @@ And we are done! DANCE TIME.
 
 ***Final Full code:***
 
-    import random
-    import time
-    
-    
-    def get_random_word():
-        file = open("wordlist.txt", "r")
-        words = file.readlines() 
-        random_word = random.choice(words)
-        random_word = random_word.strip("\n")
-        random_word = random_word.strip("\r")
-        random_word = random_word.lower()
-        file.close()
-        return random_word
-    
-    random_word = get_random_word()
-    
-    
-    def weclcome_message():
-        messsages = ["Welcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-        for messsage in messsages:
-            print (messsage)
-            time.sleep(1.3)
-    
-    def main():
-    
-    	weclcome_message()
-    	
-    	print("\nThe word contains", len(random_word), 'letters. \n')
-    	print(len(random_word) * " _")
-    
-    if __name__ == '__main__':
-        main()
+```python
+import random
+import time
+
+
+def get_random_word():
+    file = open("wordlist.txt", "r")
+    words = file.readlines() 
+    random_word = random.choice(words)
+    random_word = random_word.strip("\n")
+    random_word = random_word.strip("\r")
+    random_word = random_word.lower()
+    file.close()
+    return random_word
+
+random_word = get_random_word()
+
+
+def weclcome_message():
+    messsages = ["Welcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+    for messsage in messsages:
+        print (messsage)
+        time.sleep(1.3)
+
+def main():
+
+   weclcome_message()
+   
+   print("\nThe word contains", len(random_word), 'letters. \n')
+   print(len(random_word) * " _")
+
+if __name__ == '__main__':
+    main()
+```
+
 

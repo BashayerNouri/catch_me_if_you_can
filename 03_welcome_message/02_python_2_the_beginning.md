@@ -8,7 +8,7 @@ if __name__ == '__main__':
      main()
 ```
 
-## What is `if __name__ == '__main__'` ??
+### What is `if __name__ == '__main__'` ??
 
 Every [module](https://www.w3schools.com/python/python_modules.asp) in Python has a special attribute called  `__name__`. The value of  `__name__` attribute is set to  `'__main__'` when module run as main program. Otherwise, the value of  `__name__` is set to contain the name of the module.
 
@@ -31,13 +31,13 @@ if __name__ == "__main__":
 
 Here we have defined a new module  `my_module`. We can execute this module as main program by entering the following code:
 
-    python my_module.py
+    >>> python my_module.py
 
 **Expected Output:**
 
-    Executing as main program
-    Value of __name__ is: __main__
-    Hello, World!
+    >>> Executing as main program
+    >>> Value of __name__ is: __main__
+    >>> Hello, World!
 
 Here we are creating a new module and executing it as main program so the value of  `__name__`  is set to  `'__main__'`. As a result, the if condition satisfies and the function  `hello()`  gets called.
 
@@ -55,8 +55,8 @@ print(my_module.__name__)
     
 **Expected Output:**
 
-    4
-    Hello, World!
-    my_module
+    >>> 4
+    >>> Hello, World!
+    >>> my_module
 
 As you can see now, the if statement in `my_module` fails to execute because the value of `__name__` is set to `'my_module'`.

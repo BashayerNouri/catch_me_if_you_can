@@ -4,9 +4,11 @@
 
 ***Example:***
 
-    from math import pow
-    
-    print(pow(2,2))
+ ```python
+from math import pow
+ 
+print(pow(2,2))
+```
 
 ***Output:***
 
@@ -22,18 +24,26 @@
        
    **Yes:**
 
-       import os
-       import sys
+   ```python
+   import os 
+   import sys
+   ```
+
 
    **No:**
 
-       import sys, os
+   ```python
+   import sys, os
+   ```
+
    
    **It's okay to say this though:**
   
-      from math import exp, log, pow
+    ```python
+    from math import exp, log, pow
+    ```
 
-  
+
    
 For more informations click [here](https://www.python.org/dev/peps/pep-0008/#imports).
 
