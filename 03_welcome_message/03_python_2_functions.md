@@ -13,9 +13,12 @@ Furthermore, it avoids repetition and makes code reusable.
 
 ### Syntax of Function:
 
-    def function_name(parameters):
-    	"""docstring"""
-    	statement(s)
+```python
+def function_name(parameters):
+   """docstring"""
+   statement(s)
+```
+
 
 Above shown is a function definition which consists of following components.
 
@@ -36,8 +39,11 @@ Functions in python are defined using the block keyword "def", followed with the
 
 ***For example:***
 
-    def my_function():
-        print("Hello, World!")
+```python
+def my_function():
+    print("Hello, World!")
+```
+
  
  ***Output:***
 ![1](https://i.ibb.co/tZP0H7C/1.png)
@@ -46,8 +52,11 @@ Functions may also receive arguments (variables passed from the caller to the fu
 
 ***For example:***
     
-    def my_function_with_args(username, greeting):
-        print("Hello, %s. I wish you %s"%(username, greeting))
+```python
+def my_function_with_args(username, greeting):
+    print("Hello, %s. I wish you %s"%(username, greeting))
+```
+
 
  ***Output:***
 ![2](https://i.ibb.co/jrBTqW6/2.png)
@@ -56,8 +65,11 @@ Functions may return a value to the caller, using the keyword  'return' .
 
 ***For example:***
     
-    def sum_two_numbers(a, b):
-        return a + b
+```python
+def sum_two_numbers(a, b):
+    return a + b
+```
+
     
    ---
     
@@ -68,25 +80,26 @@ Simply write the function's name followed by (), placing any required arguments 
 ***For example:***
  Lets call the functions written above (in the previous example):
     
-    # Define our 3 functions
-    def my_function():
-        print("Hello, World!")
-    
-    def my_function_with_args(username, greeting):
-        print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
-    
-    def sum_two_numbers(a, b):
-        return a + b
-    
-    # print(a simple greeting)
-    my_function()
-    
-    # print - "Hello, Bashayer Nouri. I wish you a great year!"
-    my_function_with_args("Bashayer Nouri", "a great year!")
-    
-    # after this line x will hold the value 3!
-    x = sum_two_numbers(1,2)
+```python
+# Define our 3 functions
+def my_function():
+    print("Hello, World!")
 
+def my_function_with_args(username, greeting):
+    print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
+
+def sum_two_numbers(a, b):
+    return a + b
+
+# print(a simple greeting)
+my_function()
+
+# print - "Hello, Bashayer Nouri. I wish you a great year!"
+my_function_with_args("Bashayer Nouri", "a great year!")
+
+# after this line x will hold the value 3!
+x = sum_two_numbers(1,2)
+```
 
 
 

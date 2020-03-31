@@ -1,10 +1,12 @@
 ﻿When you fork and clone `catch_me_if_you_can` project you will see the following:
 
-    def main():
-       #write your code here
-    
-    if __name__ == '__main__':
-         main()
+```python
+def main():
+   #write your code here
+
+if __name__ == '__main__':
+     main()
+```
 
 ## What is `if __name__ == '__main__'` ??
 
@@ -12,17 +14,20 @@ Every [module](https://www.w3schools.com/python/python_modules.asp) in Python ha
 
 Consider the following code for better understanding.
 
-    # file my_module.py
-    
-    number = 4
-    
-    def hello():
-        print("Hello, World!")
-    
-    if __name__ == "__main__":
-        print("Executing as main program")
-        print("Value of __name__ is: ", __name__)
-        hello()
+```python
+# file my_module.py
+
+number = 4
+
+def hello():
+    print("Hello, World!")
+
+if __name__ == "__main__":
+    print("Executing as main program")
+    print("Value of __name__ is: ", __name__)
+    hello()
+```
+
 
 Here we have defined a new module  `my_module`. We can execute this module as main program by entering the following code:
 
@@ -39,11 +44,14 @@ Here we are creating a new module and executing it as main program so the value 
 -----
 Now, if created a new file called  `module.py`  with the following code:
 
-    import my_module
-    
-    print(my_module.number)
-    my_module.hello()
-    print(my_module.__name__)
+```python
+import my_module
+
+print(my_module.number)
+my_module.hello()
+print(my_module.__name__)
+```
+
     
 **Expected Output:**
 
