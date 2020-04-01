@@ -6,7 +6,9 @@ Right now we have 10 tries/attempts fixed, so let's make it more fun and specify
 **The difficulty levels are:**
 
 >  Easy (10 attempts) 
+>
 >  Intermediate (6 attempts) 
+>
 >  Difficult (2 attempts)
 
 Sounds fun right? Let's get started.
