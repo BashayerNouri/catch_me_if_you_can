@@ -11,9 +11,9 @@ def play_again():
             main()
         elif answer == "n" or answer == "no":
         	print("\nGoodbye. See you next time!")
-            break
+        	break
         else:
-            print("Please enter \"yes\" or \"y\" or \"no\" or \"n\" ")
+            print("Please enter \"yes\" or \"y\". \"no\" or \"n\" ")
             time.sleep(1)
 
 ```
@@ -37,9 +37,9 @@ Now. look carefully at this code and try to understand it.
             main()
         elif answer == "n" or answer == "no":
         	print("\nGoodbye. See you next time!")
-            break
+        	break
         else:
-            print("Please enter \"yes\" or \"y\" or \"no\" or \"n\" ")
+            print("Please enter \"yes\" or \"y\". \"no\" or \"n\" ")
             time.sleep(1)
  ```
 
@@ -50,12 +50,12 @@ Now. look carefully at this code and try to understand it.
 
 - Any other answers, let's say the player entered Leonardo DiCaprio, the `while` loop will keep going with the following output until the player enters the right input:
    ```
-   >>> Please enter "yes" or "y" or "no" or "n" 
+   >>> Please enter "yes" or "y". "no" or "n" 
    ```
 
 
 ---
-And now we are done with!
+And now we are done!
 
 ![Great Job Ok GIF](https://media2.giphy.com/media/xHMIDAy1qkzNS/giphy.gif?cid=ecf05e47e9aa788d6c80f2e85ffc367f396f2a0ed8528ac2&rid=giphy.gif)
 
@@ -81,6 +81,7 @@ picture = ['''
                 |   |
                | |  |
               =========''']
+
 
 
 def get_random_word():
@@ -111,9 +112,9 @@ def play_again():
             main()
         elif answer == "n" or answer == "no":
         	print("\nGoodbye. See you next time!")
-            break
+        	break
         else:
-            print("Please enter \"yes\" or \"y\" or \"no\" or \"n\" ")
+            print("Please enter \"yes\" or \"y\". \"no\" or \"n\" ")
             time.sleep(1)
 
 def main():
