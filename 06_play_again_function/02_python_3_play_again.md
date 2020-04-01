@@ -50,7 +50,7 @@ Now. look carefully at this code and try to understand it.
 
 - Any other answers, let's say the player entered Leonardo DiCaprio, the `while` loop will keep going with the following output until the player enters the right input:
    ```
-   >>> Please enter "yes" or "y" or    "no" or "n" 
+   >>> Please enter "yes" or "y" or "no" or "n" 
    ```
 
 
