@@ -7,6 +7,6 @@ In this chapter, you'll be creating a function that shows up at the end of the g
 ![5](https://i.ibb.co/FzB4zNr/5.gif)
 
 # Trello
-> Move card  `As a player, I can restart or quit the game.`  from the  `Backlog`  to the  `Doing`  list.
+> Move card  `As a player, I can restart or quit the game`  from the  `Backlog`  to the  `Doing`  list.
 
 ----------

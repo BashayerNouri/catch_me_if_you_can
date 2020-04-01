@@ -1,5 +1,5 @@
 ﻿
-This was a very straight forward. Make sure that it's working properly and the correct information is showing. If all is good, move the card and push the code.
+This was a very straight forward. Make sure that it's working properly and the correct information is showing. If all is good, move the card and push the code. Well done!
 
 ## Trello
 
