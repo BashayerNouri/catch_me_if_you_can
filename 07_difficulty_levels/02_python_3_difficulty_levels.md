@@ -1,5 +1,6 @@
 ﻿
 
+
 First things first, we need to need to specify the levels. So we will create a dictionary that contains ***levels*** as `keys` and ***number of attempts*** as the keys `values`
 
 So in the `main()` function delete this:
@@ -116,8 +117,42 @@ Now before explaining this code try to take a look at it, look at each code real
     
       >>> You didn't enter a number!
 
+- And now, for the following part:
+
+  ```python
+    if level_selection == 1:
+        tries = level['easy']
+        selection = True
+    elif level_selection == 2:
+        tries = level['intermediate']
+        selection = True
+    elif level_selection == 3:
+         tries = level['difficult']
+         selection = True
+    else:
+       print("Please select a number from 1 to 3...")
+   
+   ```
+   We have ```IF...ELIF...ELSE``` statements:
+  
+  - If the player entered a valid level number, the number of tries/attempts will equal to a `value` (10 or 6 or 2) of a `key` (easy or intermediate or difficult) in the level `dictionary`.
+
+     ```python
+     dict[key] = value
+      ```
+
+    ***For example:*** if the player entered `2`, the `tries` variable will equal to the `value` of the `key` *intermediate* in the `level` dictionary , So `tries` will equal `6` .
+   
+      And then we will change the ```selection``` variable to `True` to end the ```while``` loop and start the game.
+
+
+  -   If the player didn't enter a number that is from one to three, it will print to the player: 
+
+      ```>>> Please select a number from 1 to 3...```
+
 ---
 So now the ```main()``` function will look like this:
+
 ```python
 def main():
 
