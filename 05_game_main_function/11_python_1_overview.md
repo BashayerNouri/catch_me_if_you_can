@@ -6,7 +6,6 @@ Make sure that it's working properly and the correct information is showing. If 
 
 ***Final Code:***
 -------
-You can also find this code on Github, [click here](https://github.com/BashayerNouri/catch-me-if-you-can/blob/game_main_function/catch_me_if_you_can.py).
 
 ```python
 import random
