@@ -32,8 +32,6 @@ Now. look carefully at this code and try to understand it.
 
  - We have a `while` loop that only ends if the player answered with yes or no.
 
-Now what are the cases that will end our `while` loop? The following part:
-
 ```python
         if answer == "y" or answer == "yes":
             main()
