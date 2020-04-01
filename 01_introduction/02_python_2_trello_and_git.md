@@ -28,6 +28,17 @@ Before you can move the cards, you need to copy the board into your account. Thi
 Now you have your own copy of the board, you can move, change, add or delete cards. You can do whatever you like! Take a look at it.
 
 ----------
+### Description in Trello
+
+Make sure to check if the card contains a description or not, as it may help you understand what we are trying to build more. If the card contains a description it will have this icon ![](https://ibb.co/WpRF3PZ):
+
+![](https://ibb.co/ckmcFw5)
+
+If the card contains this icon ![](https://ibb.co/WpRF3PZ) click on the card so you can view the description.
+
+![](https://ibb.co/xLBjL8X)
+
+----------
 
 #### Git
 
