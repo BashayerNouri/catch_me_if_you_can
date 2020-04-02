@@ -10,6 +10,8 @@ The summary of this is that the player should see a welcome message as soon as t
 
 ![welcome-message](https://i.ibb.co/G97GpgJ/welcome-message.gif)
 
+-----
+
 ## Trello
 > Move card  `As a player, I can see a welcome message`  from the  `Backlog`  to the  `Doing`  list.
 

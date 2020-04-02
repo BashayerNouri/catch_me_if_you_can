@@ -8,12 +8,12 @@ Text written in a program but not run by the computer is called a comment. Pytho
 
 ```
 # printing a string
-print('Hola, Mundo!')
+print('Hello, World!')
 ```
 
 **Output**
 ```
-Hola, Mundo!
+Hello, World!
 ```
 Here, the comment is:
 
@@ -24,10 +24,11 @@ This line is ignored by the Python interpreter.
 
 Everything that comes after  `#`  is ignored. So, we can also write the above program in a single line as:
 ```
-print('Hola, Mundo!') #printing a string
+print('Hello, World!') #printing a string
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
 
+------
 
 ## Multi-Line Comments in Python
 
