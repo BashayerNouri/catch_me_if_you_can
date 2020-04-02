@@ -36,7 +36,7 @@ For more informations, [click here](https://chocolatey.org/docs/installation).
 If you don't already have `Python 3` installed, you need to do the following.
 
  1. First, ensure that you are using _**[administrative
-    shell](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/)**_. Not "`non-administrative shell`".
+    shell](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/)**_. Not "`non-administrative shell`"
     
    
  2. Paste the following on your `"administrative shell"` and press `"Enter"`.

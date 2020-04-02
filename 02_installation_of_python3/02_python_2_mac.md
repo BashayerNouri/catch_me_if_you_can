@@ -1,4 +1,4 @@
-﻿Now, in the following sections, you will learn how to install `python 3` in your system. `Python 3` is the newest version of the Python programming language.
+﻿In the following sections, you will learn how to install `python 3` in your system. `Python 3` is the newest version of the Python programming language.
 
 ## Mac OS
 
