@@ -5,15 +5,15 @@ Text written in a program but not run by the computer is called a comment. Pytho
 ## Single-Line Comments in Python
 
 This is how you write a comment on Python
-
-    # I'm a comment
-
+```python
+# I'm a comment
+```
 If you run a file that contains a comment, Python will ignore the comment lines.
 
 ---
 
 Now let's take an example from our previous lesson:
-```
+```python
 # printing a greeting message
 print('Hi, My name is Bashayer')
 ```
@@ -24,7 +24,7 @@ Hi, My name is Bashayer
 ```
 Here, the comment is:
 
-```
+```python
 # printing a greeting message
 ```
 This line is ignored by the Python interpreter.
@@ -32,7 +32,7 @@ This line is ignored by the Python interpreter.
 Everything that comes after  `#`  is ignored. 
 
 We can also write the above program in a single line as:
-```
+```python
 print('Hi, My name is Bashayer') #printing a greeting message.
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
