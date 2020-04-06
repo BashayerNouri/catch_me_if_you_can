@@ -33,7 +33,7 @@ Now you have your own copy of the board, you can move, change, add or delete car
 
 Make sure to check if the card contains a description or not, as it may help you understand what we are trying to build more. If the card contains a description it will have this icon ![icon](https://i.ibb.co/FqdJW02/icon.png):
 
-![1](https://i.ibb.co/sbBvwCS/1.png)
+![card](https://i.ibb.co/d4LLKKh/card.png)
 
 If the card contains this icon ![icon](https://i.ibb.co/FqdJW02/icon.png) click on the card so you can view the description.
 
@@ -45,7 +45,8 @@ If the card contains this icon ![icon](https://i.ibb.co/FqdJW02/icon.png) click 
 
 We'll be using git throughout the project to keep track of the changes we're making to the code and create checkpoints everytime we finish a functionality.
 
-You can start by forking and cloning the following repo on [github](https://github.com/bashayernouri/) to start your project setup. 
+You can start by forking and cloning the following repo on [github](https://github.com/BashayerNouri/catch-me-if-you-can) to start your project setup. 
 
 **In the next sections you'll learn how to do that.**
+
 
