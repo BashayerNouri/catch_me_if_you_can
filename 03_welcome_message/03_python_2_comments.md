@@ -10,6 +10,10 @@ This is how you write a comment on Python
 ```
 If you run a file that contains a comment, Python will ignore the comment lines.
 
+```python
+# This won't run
+print('This will run.')  
+```
 ---
 
 Now let's take an example from our previous lesson:
@@ -31,7 +35,7 @@ This line is ignored by the Python interpreter. Everything that comes after  `#`
 
 We can also write a comment in a single line like this:
 ```python
-print(4) # prints an integer
+print(4) #prints an integer
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
 
