@@ -37,8 +37,13 @@ then `run` your python code to test it out.
     $ cd catch_me_if_you_can
     $ python demo.py
 
-Feel free to play with your code. Print anything you like. Perhaps a song lyrics, your favourite book or a small description about yourself. Go crazy!
+<br>
 
+Feel free to play with your code. Print anything you like. Perhaps a song lyrics, your favourite book or a small description about yourself.
+
+Go crazy!
+
+<br>
 
 ## Built-in Types
 
@@ -97,9 +102,10 @@ Feel free to play with your code. Print anything you like. Perhaps a song lyrics
    Read the above really carefully and try to understand it. Take your time.
 
  ---
-Now find the `catch-me-if-you-can/catch_me_if_you_can.py` file, Print the following output using the `print()` command, `save` the file and 
+Now find the `catch-me-if-you-can/demo.py` file, Print the following output using the `print()` command, `save` the file and 
 then `run` your python code to test it out.
  
+ Output:
  ```
  True
  4
@@ -123,7 +129,6 @@ Now it's thinking time, try to figure out.
 ![Meme Think GIF](https://media2.giphy.com/media/a5viI92PAF89q/giphy.gif?cid=ecf05e47d141145b34cc6d77e908ccb4b28825fe0db144db&rid=giphy.gif)
 
 ----
-So now!
 
 Are you ready the know the answer? 
 
@@ -138,4 +143,5 @@ print(9.11)
 print(['red','green','blue'])
 print(('Apple','Bannan','Orange'))
 print({1, 2, 3})
-print({'brand': 'volkswagen', 'model': 'jetta', 'year': 2013})```
+print({'brand': 'volkswagen', 'model': 'jetta', 'year': 2013})
+```
