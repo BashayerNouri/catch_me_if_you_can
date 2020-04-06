@@ -31,9 +31,9 @@ This line is ignored by the Python interpreter.
 
 Everything that comes after  `#`  is ignored. 
 
-We can also write the above program in a single line as:
+We can also write a cooment in a single line as:
 ```python
-print('Hi, My name is Bashayer') #printing a greeting message.
+print('4') #prints an integer
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
 
