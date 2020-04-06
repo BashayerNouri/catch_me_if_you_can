@@ -5,7 +5,7 @@ Let's start setting up the project by following these steps:
 ## **How to fork the project?**
 ![Fork button](https://github-images.s3.amazonaws.com/enterprise/2.13/assets/images/help/repository/fork_button.jpg)
 
-Go into the starter repo  [github](https://github.com/bashayernouri/). On the right hand corner there is a `fork` button; press that. A pop-up will show up asking you which account would you like to fork this repo to, obviously you'd want to fork it to your account so choose that. What this does is it makes a copy of this repo under your username. 
+Go into the starter repo  [github](https://github.com/BashayerNouri/catch-me-if-you-can). On the right hand corner there is a `fork` button; press that. A pop-up will show up asking you which account would you like to fork this repo to, obviously you'd want to fork it to your account so choose that. What this does is it makes a copy of this repo under your username. 
 
 For more informations [click here](https://help.github.com/en/enterprise/2.13/user/articles/fork-a-repo#fork-an-example-repository).
 
@@ -47,7 +47,7 @@ After forking and cloning the project all you need to do now is to go into the p
  
 
     $ cd catch_me_if_you_can
-    $ catch_me_if_you_can.py
+    $ python catch_me_if_you_can.py
 
 
 The first command will take you to the project's folder. The second command will run your project.

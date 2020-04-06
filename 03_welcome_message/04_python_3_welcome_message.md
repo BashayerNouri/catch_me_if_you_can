@@ -28,9 +28,9 @@ Welcome to Catch Me If You Can
 
 ---
 
-Now, we want to add more messages to our file. 
+Now, we want to add more messages to our program. 
 
-Your next job is to `print()` the following messages with a break between each message like this:
+Find the `catch-me-if-you-can/catch_me_if_you_can.py` file,  Print the following messages with a break between each message using the `print()` command, `save` the file and then `run` your python code to test it out.
 
 ```
 Welcome to Catch Me If You Can
@@ -39,18 +39,31 @@ Starting the game...
 Selecting a word...
 ```
 
+***To run the file:***
+
+    $ cd catch_me_if_you_can
+    $ python catch_me_if_you_can.py
+   
+   <br>
 Think about it, how can we print multiple messages with a break between each message?
 
 Play with your code and try to `print` the messages above.
 
 ![Meme Think GIF](https://media2.giphy.com/media/a5viI92PAF89q/giphy.gif?cid=ecf05e47d141145b34cc6d77e908ccb4b28825fe0db144db&rid=giphy.gif)
 
-Now, we can print the above messages using one of the following:
+----
+So are you ready?
+
+Let's start....
+
+We can print the above messages using one of the following:
 
 Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add one of the following:
 
 
 ```python
+# A welcome message
+print()
 print("Welcome to Catch Me If You Can")
 print("Get ready")
 print("Starting the game...")
@@ -58,6 +71,7 @@ print("Selecting a word...")
 ```
 **Or:**
 ```python
+# A welcome message
 print("""
 Welcome to Catch Me If You Can
 Get ready

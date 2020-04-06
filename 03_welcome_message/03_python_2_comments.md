@@ -4,58 +4,39 @@ Text written in a program but not run by the computer is called a comment. Pytho
 
 ## Single-Line Comments in Python
 
-### Example 1: Writing Single-Line Comments.
+This is how you write a comment on Python
 
+    # I'm a comment
+
+If you run a file that contains a comment, Python will ignore the comment lines.
+
+---
+
+Now let's take an example from our previous lesson:
 ```
-# printing a string
-print('Hello, World!')
+# printing a greeting message
+print('Hi, My name is Bashayer')
 ```
 
 **Output**
 ```
-Hello, World!
+Hi, My name is Bashayer
 ```
 Here, the comment is:
 
 ```
-# printing a string
+# printing a greeting message
 ```
 This line is ignored by the Python interpreter.
 
-Everything that comes after  `#`  is ignored. So, we can also write the above program in a single line as:
+Everything that comes after  `#`  is ignored. 
+
+We can also write the above program in a single line as:
 ```
-print('Hello, World!') #printing a string
+print('Hi, My name is Bashayer') #printing a greeting message.
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
 
-------
+<br>
 
-## Multi-Line Comments in Python
-
-Python doesn't offer a separate way to write multiline comments. However, there are other ways to get around this issue.
-
-We can use  `#`  at the beginning of each line of comment on multiple lines.
-
-### Example 2: Using multiple `#`
-
-```
-# it is a
-# multiline
-# comment
-```
-Here, each line is treated as a single comment and all of them are ignored.
-
----
-
-### Example 3: Using String Literals to write Multi-line Comments
-
-```
-'''
-
-I am a
-multiline comment!
-
-'''
-print("Hello World")
-```
-
+Now, find the `catch-me-if-you-can/demo.py` file and comment your codes.
