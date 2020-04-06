@@ -1,4 +1,5 @@
-﻿Comments are very important while writing a program. It describes what's going on inside a program so that a person looking at the source code does not have a hard time figuring it out. You might forget the key details of the program you just wrote in a month's time. So taking the time to explain these concepts in the form of comments is always fruitful.
+﻿
+Comments are very important while writing a program. It describes what's going on inside a program so that a person looking at the source code does not have a hard time figuring it out. You might forget the key details of the program you just wrote in a month's time. So taking the time to explain these concepts in the form of comments is always fruitful.
 
 Text written in a program but not run by the computer is called a comment. Python interprets anything after a hash `#` symbol as a comment.
 
@@ -18,7 +19,7 @@ print('This will run.')
 
 Now let's take an example from our previous lesson:
 ```python
-# printing a greeting message
+# prints a greeting message
 print('Hi, My name is Bashayer')
 ```
 
@@ -35,7 +36,7 @@ This line is ignored by the Python interpreter. Everything that comes after  `#`
 
 We can also write a comment in a single line like this:
 ```python
-print(4) #prints an integer
+print(4) # prints an integer
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
 
