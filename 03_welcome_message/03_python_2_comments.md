@@ -2,7 +2,7 @@
 
 Text written in a program but not run by the computer is called a comment. Python interprets anything after a hash `#` symbol as a comment.
 
-## Single-Line Comments in Python
+## Comments in Python
 
 This is how you write a comment on Python
 ```python
@@ -31,7 +31,7 @@ This line is ignored by the Python interpreter.
 
 Everything that comes after  `#`  is ignored. 
 
-We can also write a cooment in a single line as:
+We can also write a cooment in a single line like this:
 ```python
 print(4) # prints an integer
 ```
