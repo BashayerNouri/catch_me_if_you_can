@@ -27,11 +27,9 @@ Here, the comment is:
 ```python
 # printing a greeting message
 ```
-This line is ignored by the Python interpreter.
+This line is ignored by the Python interpreter. Everything that comes after  `#`  is ignored. 
 
-Everything that comes after  `#`  is ignored. 
-
-We can also write a cooment in a single line like this:
+We can also write a comment in a single line like this:
 ```python
 print(4) # prints an integer
 ```
