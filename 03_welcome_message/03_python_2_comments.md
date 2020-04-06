@@ -33,7 +33,7 @@ Everything that comes after  `#`  is ignored.
 
 We can also write a cooment in a single line as:
 ```python
-print('4') #prints an integer
+print(4) #prints an integer
 ```
 The output of this program will be the same as in **Example 1**. The interpreter ignores all the text after `#`.
 
