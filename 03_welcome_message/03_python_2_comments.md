@@ -42,4 +42,4 @@ The output of this program will be the same as in **Example 1**. The interpreter
 
 <br>
 
-Now, find the `catch-me-if-you-can/demo.py` file and comment your codes.
+Now, find the `catch-me-if-you-can/script.py` file and comment your codes.

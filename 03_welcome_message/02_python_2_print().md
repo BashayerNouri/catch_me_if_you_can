@@ -23,7 +23,7 @@ In Python a string is either surrounded by double quotes (`"Hello, World!"`) or 
 
 -----
 
-Now find the `catch-me-if-you-can/demo.py` file, Print a greeting message along with your name using the `print()` command, `save` the file and 
+Now find the `catch-me-if-you-can/script.py` file, Print a greeting message along with your name using the `print()` command, `save` the file and 
 then `run` your python code to test it out.
 
 
@@ -35,7 +35,7 @@ then `run` your python code to test it out.
 ***To run the file:***
 
     $ cd catch_me_if_you_can
-    $ python demo.py
+    $ python script.py
 
 <br>
 
@@ -102,7 +102,7 @@ Go crazy!
    Read the above really carefully and try to understand it. Take your time.
 
  ---
-Now find the `catch-me-if-you-can/demo.py` file, Print the following output using the `print()` command, `save` the file and 
+Now find the `catch-me-if-you-can/script.py` file, Print the following output using the `print()` command, `save` the file and 
 then `run` your python code to test it out.
  
  Output:
@@ -119,7 +119,7 @@ then `run` your python code to test it out.
 ***To run the file:***
 
     $ cd catch_me_if_you_can
-    $ python demo.py
+    $ python script.py
     
    <br>
    
@@ -130,11 +130,11 @@ Now it's thinking time, try to figure out.
 
 ----
 
-Are you ready the know the answer? 
+Are you ready to know the answer? 
 
 Let's start!
 
-Your `catch-me-if-you-can/demo.py` file, should look like the following:
+Your `catch-me-if-you-can/script.py` file, should look like the following:
 
 ```python
 print(True)
