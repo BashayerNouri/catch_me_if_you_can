@@ -73,6 +73,7 @@ while tries > 0:
 
     if status == random_word:
         print("\nCongratulations! the word is \"%s\"" % random_word)
+        break
 
     elif tries == 0:
         print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)
@@ -93,6 +94,7 @@ while tries > 0:
 
     if status == random_word:
         print("\nCongratulations! the word is \"%s\"" % random_word)
+        break
 
     elif tries == 0:
         print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)
@@ -149,10 +151,12 @@ The summary of this code is, if a letter in the random word is correctly guessed
 
     if status == random_word:
          print("\nCongratulations! the word is \"%s\"" % random_word)
+         break
          
 If the player successfully guessed every letter.
 
 -  It will `print` "a winning message"
+- And `break` to end the `while` loop.
 
 If the play ran out of tries:
 
