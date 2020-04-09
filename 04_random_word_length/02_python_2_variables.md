@@ -91,7 +91,7 @@ Print the variable using the `print()` command.
 ```
 ***To run the file:***
 
-    $ cd catch_me_if_you_can
+    $ cd catch-me-if-you-can
     $ python script.py
    
    <br>
@@ -118,4 +118,4 @@ print(word)
 
 <br>
 
-You can play with your code and try to `print` a different variables with different data types.
+You can play with your code and try to `print` different variables with different data types.

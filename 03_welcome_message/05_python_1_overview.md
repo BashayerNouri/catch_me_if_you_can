@@ -3,7 +3,7 @@
 - We learned about the `print()` function.
 - We learned how to `print()` different data types.
 - We learned how to write a comment.
-- We finished our welcome message program.
+- We finished the welcome message program.
 
 Make sure that it's working properly and the correct information is showing. If all is good, move the card and push the code.
 

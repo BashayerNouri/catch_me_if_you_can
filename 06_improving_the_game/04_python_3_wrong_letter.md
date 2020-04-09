@@ -40,8 +40,7 @@ Now take some time and try to figure out how we are going to check if the input 
 
 <br>
 
-![thinking think GIF by Nick Jonas](https://media2.giphy.com/media/872o15eAXFBw66UfNl/giphy.gif?cid=ecf05e47f6aa97e62ac639d89b27238df25ef1204a7c1300&rid=giphy.gif)
-
+![thinking think GIF by Nick Jonas](https://media2.giphy.com/media/872o15eAXFBw66UfNl/giphy.gif?cid=ecf05e47f6aa97e62ac639d89b27238df25ef1204a7c1300&rid=giphy.gif =350x300)
 <br>
 
 Now...
@@ -102,17 +101,23 @@ while tries > 0:
 So what we added? We added the following code:
 ```python
 elif guess not in random_word:
-    print("\n\'%s\' is not part of the word, try another letter.\n"  % guess)
-    tries -= 1
+     print("\n\'%s\' is not part of the word, try another letter.\n"  % guess)
+     tries -= 1
 ```
 <br>
-We added an `if else`  statement that does the following:
+
+We added `elif` statement that does the following:
 
  - Check if the player input is not part of the word.
+     ```python
+    guess not in random_word
+   ```
  
- 
- - If the above condition is `True`, then minimize the number of `tries` by one.
-
+ - If the above condition is `True`, `print`  a warning message and then minimize the number of `tries` by one.
+    ```python
+    print("\n\'%s\' is not part of the word, try another letter.\n"  % guess)
+    tries -= 1
+    ```
 
 
 ## Trello

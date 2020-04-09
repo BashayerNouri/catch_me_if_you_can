@@ -57,3 +57,8 @@ print(number)
 ```
 >>> 5
 ```
+
+<br>
+
+Now Open your ```script.py``` file and practice what we learned so far.
+

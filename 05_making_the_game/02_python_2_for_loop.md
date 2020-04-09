@@ -12,18 +12,25 @@ The for loop in Python is used to iterate over a sequence ([list](https://www.pr
 ### Syntax of for Loop
 
 ```python
-for val in sequence:
-	Body of for
+for value in sequence:
+     Body of for
 ```
 
-Here,  `val`  is the variable that takes the value of the item inside the sequence on each iteration.
+Here,  `value`  is the variable that takes the value of the item inside the sequence on each iteration.
 
 Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
 
----
-### Flowchart of for Loop
+<br>
 
-![Flowchart of for Loop in Python programming](https://cdn.programiz.com/sites/tutorial2program/files/forLoop.jpg "for Loop Flowchart")
+<p align=center> </p>
+
+<div align=center>
+<p align=center> Flowchart of for Loop <p/>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/forLoop.jpg">
+
+<div/>
+
+
 
 ---
 ***Example:***

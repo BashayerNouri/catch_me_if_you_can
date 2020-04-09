@@ -46,7 +46,7 @@ After forking and cloning the project all you need to do now is to go into the p
  -   To run your project and see the changes you make, use the following commands:
  
 
-    $ cd catch_me_if_you_can
+    $ cd catch-me-if-you-can
     $ python catch_me_if_you_can.py
 
 

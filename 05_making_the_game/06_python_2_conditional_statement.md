@@ -54,7 +54,7 @@ Now before jumping into the answer. Take your time and figure out which conditio
 
 <br>
 
-![thinking think GIF by Red Fang](https://media1.giphy.com/media/l3vRioHcAYTTZbXQA/giphy.gif?cid=ecf05e479162bd1ff634da3b63935a514c202f8249615693&rid=giphy.gif)
+![thinking think GIF by Red Fang](https://media1.giphy.com/media/l3vRioHcAYTTZbXQA/giphy.gif?cid=ecf05e479162bd1ff634da3b63935a514c202f8249615693&rid=giphy.gif =300x300)
 
 
 <br>

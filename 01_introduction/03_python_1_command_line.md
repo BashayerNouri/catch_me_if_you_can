@@ -10,7 +10,10 @@
 
 Should look something like this:
 
-![Image result for command line](https://upload.wikimedia.org/wikipedia/commons/b/b3/Command_Prompt_on_Windows_10_RTM.png)
+<div align=center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Command_Prompt_on_Windows_10_RTM.png" width=590 height=380>
+</img>
+</div>
 
 ----
 ### MacOS: (Terminal)
@@ -18,4 +21,8 @@ Should look something like this:
 Open the Terminal application on your MacBook.
 
 Should look something like this:
-![Image result for mac os terminal commands](https://cdn.macpaw.com/uploads/images/Screen%20Shot%202018-10-17%20at%2018.14.23.png)
+
+<div align=center>
+<img src="https://cdn.macpaw.com/uploads/images/Screen%20Shot%202018-10-17%20at%2018.14.23.png" width=680 height=430>
+</img>
+</div>

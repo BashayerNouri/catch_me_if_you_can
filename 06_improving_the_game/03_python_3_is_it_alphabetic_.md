@@ -6,7 +6,7 @@
 
 ## Python String `isalpha()`
 
-The `isalpha()` method returns True if all characters in the string are alphabets. If not, it returns False.
+The `isalpha()` method returns `True` if all characters in the string are alphabets. If not, it returns `False`.
 
 ***For example:***
 ```python
@@ -25,7 +25,7 @@ else:
 
 <br>
 
-Now Open your `script.py` file and practice what we learned so far before going into the next task.
+Now Open your `script.py` file and practice what we learned.
 
 -----
 Now, before going into the code let me explain what we are trying to build.
@@ -52,7 +52,7 @@ Take some time to try to figure out how we are going to do this.
 
 <br>
 
-![thinking think GIF by Nick Jonas](https://media2.giphy.com/media/872o15eAXFBw66UfNl/giphy.gif?cid=ecf05e47f6aa97e62ac639d89b27238df25ef1204a7c1300&rid=giphy.gif)
+![thinking think GIF by Nick Jonas](https://media2.giphy.com/media/872o15eAXFBw66UfNl/giphy.gif?cid=ecf05e47f6aa97e62ac639d89b27238df25ef1204a7c1300&rid=giphy.gif =350x300)
 
 <br>
 
@@ -61,7 +61,6 @@ Now...
 <br>
 
 This is how `catch-me-if-you-can/catch_me_if_you_can.py` file will look like:
-
 ```python
 
 random_word = "cinema"
@@ -104,6 +103,7 @@ while tries > 0:
     # Case 3: if the player enters a full word but it's a wrong word.
     else:
         print("\n%s lenght does not equal to %s letters, try another!" % (guess,len(random_word)))
+        
 ```
 
 <br>
@@ -120,9 +120,15 @@ if len(guess) == 1:
 We added a new `if` statement that does the following:
 
  - Check if the player input is one letter only using the `len()` function 
- 
+    ```python
+    if len(guess) == 1
+    ```
  
  - If the above condition is `True`, it will check if the player input is alphabetic.
+     ```python
+     if not guess.isalpha():
+        print("\n\'%s\' is not a letter, enter a letter!\n" % guess)
+     ```
 
 
 ##  Trello

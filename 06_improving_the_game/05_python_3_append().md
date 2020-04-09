@@ -99,7 +99,7 @@ while tries > 0:
 
 So what we added? 
 
-We added a available called `letters_guessed` that contains an empty list.
+We added a variable called `letters_guessed` that contains an empty list.
 
 ```python
 letters_guessed = []
@@ -121,8 +121,11 @@ print("\nLetters Guessed: %s\n"  %  letters_guessed)
 
 Which means:
 - Any letters from the user input `guess` will be added in the `letters_guessed` list using the `append()` method.
+   ```python
+   letters_guessed.append(guess)
+   ```
 
-- Then, we will `print` this list.
+- Then, we will `print` the `letters_guessed` list.
 
 <br>
 

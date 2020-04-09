@@ -1,5 +1,5 @@
 ﻿
-Before going into the sections, let me break down what we are going to do in the following chapters in some steps:
+Before going into the sections, let me break down what we are going to do in steps:
 
 
 ## Steps:

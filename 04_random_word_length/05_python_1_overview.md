@@ -5,7 +5,7 @@
 - We learned about string formatting.
 - We learned about the `len()` function.
 - We learned about escape characters.
-- We finished our program.
+- We finished random word length program.
 
 This was a very straight forward. Make sure that it's working properly and the correct information is showing. If all is good, move the card and push the code.
 

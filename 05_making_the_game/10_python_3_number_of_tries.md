@@ -1,15 +1,19 @@
-﻿<br>
-
-And we are done with the lessons. 
-
-Let's start building...
-
-![t](https://i.ibb.co/hc48zrf/t.gif)
-
-# Trello
+﻿# Trello
 > Move card  `As a player, I have a specific number of tries`  from the  `Backlog`  to the  `Doing`  list.
 
 ----------
+
+
+And we are done with the lessons. 
+
+***Now let's start building the following:***
+
+In this program, we will include the number of tries and minimize it every time the player guesses the wrong word.
+
+![t](https://i.ibb.co/hc48zrf/t.gif)
+
+
+<br>
 
 This is how `catch-me-if-you-can/catch_me_if_you_can.py` file will look like:
 

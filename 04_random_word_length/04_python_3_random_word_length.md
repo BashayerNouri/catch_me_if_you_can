@@ -23,7 +23,7 @@ Print the `random_word` length with a message like the following output using th
 
 ***To run the file:***
 
-    $ cd catch_me_if_you_can
+    $ cd catch-me-if-you-can
     $ python catch_me_if_you_can.py
    
    ---
@@ -56,13 +56,26 @@ print("Get ready")
 print("Starting the game...")
 print("Selecting a word...")
 
-# prints out the word length
+# prints the word length
 print("\nThe word contains %s letters." % len(random_word))
 ```
 <br>
 
+***We added the following:***
 
-If you pay attention at this part:
+A variable called `random_word` that contains a secret word.
+
+```python
+random_word = "cinema"
+```
+And then, `print` the random word length.
+
+```python
+# prints the word length
+print("\nThe word contains %s letters." % len(random_word))
+```
+---
+*Pay attention at this part:*
 ```python
 print("\nThe word contains %s letters." % len(random_word))
 ```
@@ -99,20 +112,24 @@ print("Get ready")
 print("Starting the game...")
 print("Selecting a word...")
 
-# prints out the word length
+# prints the word length
 print("\nThe word contains %s letters." % len(random_word))
 print(len(random_word) * " _")
 ```
 <br>
 
-The new line is:
+***The new line is:***
 ```python
 print(len(random_word) * " _")
 ```
 This code print this `_` character based on the number of letters in the string.
 
-So the output will be:
+<br>
+
+***So the output will look like this:***
 
 
 ![we](https://i.ibb.co/K5z0mVy/we.gif)
+
+
 

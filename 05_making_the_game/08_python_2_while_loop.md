@@ -19,18 +19,31 @@ while test_expression:
     Body of while
 ```
 ---
+<div align=center>
+<p align=center> Flowchart of while Loop <p/>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/whileLoopFlowchart.jpg">
 
-### Flowchart of while Loop
-![while Loop in Python programming](https://cdn.programiz.com/sites/tutorial2program/files/whileLoopFlowchart.jpg)
+<div/>
+
 
 ## Python break statement
 
 
 The Python **`break`** statement immediately terminates a loop entirely.
 
-[Click here](https://www.programiz.com/python-programming/break-continue) to read more.
+[Click here](https://cdn.programiz.com/sites/tutorial2program/files/flowchart-break-statement.jpg) to read more.
 
-![Flowchart of break statement in Python](https://cdn.programiz.com/sites/tutorial2program/files/flowchart-break-statement.jpg)
+
+
+<div align=center>
+<p align=center> Flowchart of break statement <p/>
+<img 
+width="350"
+src="https://cdn.programiz.com/sites/tutorial2program/files/flowchart-break-statement.jpg">
+
+<div/>
+
+
 
 ----
 ### Example: 
@@ -47,6 +60,12 @@ while True:
     else:
         print("wrong, try again.")
 ```
+<br>
 
+***Output:***
 
+![out](https://i.ibb.co/j5PVxvG/out.gif)
 
+<br>
+
+Now Open your ```script.py``` file and practice what we learned so far.

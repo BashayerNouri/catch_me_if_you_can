@@ -1,4 +1,6 @@
-﻿Remamber this code?
+﻿<br>
+
+Remamber this code?
 
 ```python
 # A welcome message
@@ -20,10 +22,8 @@ hmmmmm...
 
 <br>
 
-![thinking think GIF by Red Fang](https://media1.giphy.com/media/l3vRioHcAYTTZbXQA/giphy.gif?cid=ecf05e479162bd1ff634da3b63935a514c202f8249615693&rid=giphy.gif)
+![thinking think GIF by Red Fang](https://media1.giphy.com/media/l3vRioHcAYTTZbXQA/giphy.gif?cid=ecf05e479162bd1ff634da3b63935a514c202f8249615693&rid=giphy.gif =300x300)
 
-
-<br>
 
 
 Do you wanna know how?
@@ -41,9 +41,8 @@ for messsage in messsages:
 
 The `for` loop goes through each element in the `messsages` list, saves it in the variable `messsage` (this variable could be named anything) and then execute the code inside the `for` loop, which is `print` the messages.
 
-<br>
 
-The code is so much better right?
+The code now is so much better right?
 
 
 ---
@@ -54,7 +53,15 @@ The code is so much better right?
 To know more about escape characters [click here](https://www.w3schools.com/python/gloss_python_escape_characters.asp).
 
 
+---
 
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python catch_me_if_you_can.py
+   
+  
+   
 ## Final Code
 
 ```python

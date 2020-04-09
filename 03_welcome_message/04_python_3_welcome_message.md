@@ -1,5 +1,5 @@
 ﻿
-So now let's write our first Python program.
+So now, let's write our first Python program in the game.
 
 Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the following without running your code:
 
@@ -20,7 +20,9 @@ Are you ready?
 
 3..
 
-In the above example, we direct our program to `print()` a welcome message. The printed words that appear as a result of the `print()` function are referred to as _output_. The output of this example program would be:
+In the above example, we direct our program to `print()` a welcome message. The printed words that appear as a result of the `print()` function are referred to as _output_. 
+
+***The output would be:***
 
 ```
 Welcome to Catch Me If You Can
@@ -30,8 +32,9 @@ Welcome to Catch Me If You Can
 
 Now, we want to add more messages to our program. 
 
-Find the `catch-me-if-you-can/catch_me_if_you_can.py` file,  Print the following messages with a break between each message using the `print()` command, `save` the file and then `run` your python code to test it out.
+Find the `catch-me-if-you-can/catch_me_if_you_can.py` file. Print the following messages with a break between each message using the `print()` command, `save` the file and then `run` your python code to test it out.
 
+***Output***
 ```
 Welcome to Catch Me If You Can
 Get ready
@@ -41,7 +44,7 @@ Selecting a word...
 
 ***To run the file:***
 
-    $ cd catch_me_if_you_can
+    $ cd catch-me-if-you-can
     $ python catch_me_if_you_can.py
    
    <br>
@@ -83,6 +86,7 @@ Selecting a word...
 And that's it we are done!!! Happy Dance.
 
 ![dance party GIF](https://media3.giphy.com/media/zQLjk9d31jlMQ/200.webp?cid=ecf05e472c14286551df905fbe28db803386d8d62547a372&rid=200.webp)
+
 
 
 

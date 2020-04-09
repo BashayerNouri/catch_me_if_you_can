@@ -70,22 +70,37 @@ while tries > 0:
 ```
 So what we added? 
 
-We added the following `if...else` case:
+We added a new `elif` statement:
 ```python
 elif guess in letters_guessed:
     print("\n\'%s\' has been guessed before, try another letter.\n" % guess)
     print("\nLetters Guessed: %s\n" % letters_guessed)
 ```
 
-A new `if...else` statement that does the following:
+This statement that does the following:
 
- - Check if the player  already guessed the letter by checking if the input `guess` is in the `letters_guessed` list or not
+ - Check if the player  already guessed the letter by checking if the input `guess` is in the `letters_guessed` list or not.
+    ```python
+    guess in letters_guessed
+    ```
  
 
 ---
 Also, pay attention. We added this statement right before checking if the letter is wrong.
 
-Let me give you a scenario to why we did that:
+```python
+elif guess in letters_guessed:
+       print("\n\'%s\' has been guessed before, try another letter.\n" % guess)
+       print("\nLetters Guessed: %s\n" % letters_guessed)
+
+elif guess not in random_word:
+       print("\n\'%s\' is not part of the word, try another letter.\n" % guess)
+       tries -= 1
+       letters_guessed.append(guess)
+       print("\nLetters Guessed: %s\n"  %  letters_guessed)
+```
+
+***Let me give you a scenario why we did that:***
 
 Let's say the player entered a wrong letter and then he added the same wrong letter again. If we added this statement right after checking if the letter is wrong, the program will go into the first if statement case and will not enter the second if statement case (the one that check if the letter is gussed). So the output will be like this:
 

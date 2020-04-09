@@ -79,39 +79,37 @@ while tries > 0:
         print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)
 ```
 
-                    
+                
 
  **We added the following:**
  ```python
- 
-    status = ''
-    for letter in random_word:
-        if letter in letters_guessed:
-            status += letter
-        else:
-            status += ' _'
-    print(status)
+   status = ''
+   for letter in random_word:
+       if letter in letters_guessed:
+           status += letter
+       else:
+           status += ' _'
+   print(status)
 
-    if status == random_word:
-        print("\nCongratulations! the word is \"%s\"" % random_word)
-        break
+   if status == random_word:
+       print("\nCongratulations! the word is \"%s\"" % random_word)
+       break
 
-    elif tries == 0:
-        print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)
-
+   elif tries == 0:
+       print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)
 ```
 ---
-**Let me explain this code step by step:**
+***Let me explain this code step by step:***
 
-
-    if guessed == False:
-        for letter in random_word:
-            if letter in letters_guessed:
-                status += letter
-            else:
-                status += ' _'
-        print(status)
-
+```python
+   status = ''
+   for letter in random_word:
+       if letter in letters_guessed:
+           status += letter
+       else:
+           status += ' _'
+   print(status)
+```
 The summary of this code is, if a letter in the random word is correctly guessed, the character `"_"` will be replaced with the correct letter.
 
 ***Example:***
@@ -148,22 +146,21 @@ The summary of this code is, if a letter in the random word is correctly guessed
 > 
 > You have 9 tries.
 ----
-
-    if status == random_word:
-         print("\nCongratulations! the word is \"%s\"" % random_word)
-         break
-         
+```python
+if status == random_word:
+    print("\nCongratulations! the word is \"%s\"" % random_word)
+    break
+ ```        
 If the player successfully guessed every letter.
 
 -  It will `print` "a winning message"
 - And `break` to end the `while` loop.
 
-If the play ran out of tries:
-
-     elif tries == 0:
-        print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)
-            
-
+If the play ran out of `tries`:
+```python
+elif tries == 0:
+    print("\nOh no! You have run out of guesses, better luck next time! The word is \"%s\"" % random_word)            
+```
 
 
 - It will `print` a "losing message"

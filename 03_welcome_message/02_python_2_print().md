@@ -1,11 +1,14 @@
-﻿
-Now what we’re going to do is teach our computer to communicate. The gift of speech is valuable, a computer can answer many questions we have about “how” or “why” or “what” it is doing. In Python, the `print()` function is used to tell a computer to talk. The message to be printed should be surrounded by quotes.
+﻿<br>
+
+Now what we’re going to do is teach our computer to communicate. The gift of speech is valuable, a computer can answer many questions we have about “how” or “why” or “what” it is doing.
+
+In Python, the `print()` function is used to tell a computer to talk. The message to be printed should be surrounded by quotes.
 
 
-For example, if you want to print the following in you console:
+For example, if you want to print the following in your console:
 
 ```
-Hello, World!
+>>> Hello, World!
 ```
 
 
@@ -27,19 +30,19 @@ Now find the `catch-me-if-you-can/script.py` file, Print a greeting message alon
 then `run` your python code to test it out.
 
 
- Output example:
+ ***Output example:***
 
 
-    Hi, My name is Bashayer
+    >>> Hi, My name is Bashayer
 
 ***To run the file:***
 
-    $ cd catch_me_if_you_can
+    $ cd catch-me-if-you-can
     $ python script.py
 
 <br>
 
-Feel free to play with your code. Print anything you like. Perhaps a song lyrics, your favourite book or a small description about yourself.
+Feel free to play with your code. Print anything you like, perhaps a song lyrics, your favourite book or a small description about yourself.
 
 Go crazy!
 
@@ -102,24 +105,25 @@ Go crazy!
    Read the above really carefully and try to understand it. Take your time.
 
  ---
-Now find the `catch-me-if-you-can/script.py` file, Print the following output using the `print()` command, `save` the file and 
+Now find the `catch-me-if-you-can/script.py` file. Print the following output using the `print()` command, `save` the file and 
 then `run` your python code to test it out.
  
- Output:
+ ***Output:***
  ```
- True
- 4
- 9.11
- ['red','green','blue']
- ('Apple','Bannan','Orange')
- {1, 2, 3}
+True
+4
+9.11
+['red','green','blue']
+('apple','bannan','orange')
+{1, 2, 3}
 {'brand': 'volkswagen', 'model': 'jetta', 'year': 2013}
  ```
 
 ***To run the file:***
 
-    $ cd catch_me_if_you_can
+    $ cd catch-me-if-you-can
     $ python script.py
+
     
    <br>
    
@@ -141,7 +145,7 @@ print(True)
 print(4)
 print(9.11)
 print(['red','green','blue'])
-print(('Apple','Bannan','Orange'))
+print(('apple','bannan','orange'))
 print({1, 2, 3})
 print({'brand': 'volkswagen', 'model': 'jetta', 'year': 2013})
 ```
