@@ -11,7 +11,8 @@ Let's start building...
 
 ----------
 
-Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the following:
+This is how `catch-me-if-you-can/catch_me_if_you_can.py` file will look like:
+
 
 ```python
 random_word = "cinema"
