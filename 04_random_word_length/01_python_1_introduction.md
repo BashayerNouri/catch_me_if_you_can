@@ -1,10 +1,11 @@
 ﻿
 In this chapter, you'll be creating a program that give you the length of a secret word.
 
+![we](https://i.ibb.co/K5z0mVy/we.gif)
+
 ---
 *This will help you have a better idea of what we're trying to build in this chapter:*
 
-![3](https://i.ibb.co/3RHcR0t/3.gif)
 
 
 # Trello
