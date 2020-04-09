@@ -64,8 +64,20 @@ So what we did?
 
  
  - If the player added the wrong full word, it will minimize the variable `tries` by one.
+ 
+    At this part:
+    ```python
+    else:
+       print("\nSomething is not part of the word, try again.")
+       tries -=1
+    ```
+    We added:
     ```python
     tries -=1
+    ```
+    Same as:
+    ```python
+    tries = tries - 1
     ```
  - And last, we created a `while` loop that breaks only if the number of `tries` equals `zero`, which means you have lost the game.
    ```python
