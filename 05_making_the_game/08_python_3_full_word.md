@@ -2,13 +2,15 @@
 
 Now Let's start building....
 
+![done](https://i.ibb.co/gTzdRVd/done.gif)
+
 
 # Trello
 > Move card  `As a player, I can know if I added the right or wrong full word.`  from the  `Backlog`  to the  `Doing`  list.
 
 ----------
 
-Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the following:
+This is how `catch-me-if-you-can/catch_me_if_you_can.py` file will look like:
 
 ```python
 random_word = "cinema"

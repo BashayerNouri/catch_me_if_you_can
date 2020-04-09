@@ -41,6 +41,10 @@ for messsage in messsages:
 
 The `for` loop goes through each element in the `messsages` list, saves it in the variable `messsage` (this variable could be named anything) and then execute the code inside the `for` loop, which is `print` the messages.
 
+<br>
+
+The code is so much better right?
+
 
 ---
 ***Note:***
@@ -65,7 +69,12 @@ for messsage in messsages:
 print("\nThe word contains %s letters." % len(random_word))
 print(len(random_word) * " _")
 ```
+
+
+
 ----------
+
+
 
 ### Git
 
