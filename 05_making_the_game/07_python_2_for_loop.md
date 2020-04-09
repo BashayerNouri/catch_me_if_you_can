@@ -1,4 +1,7 @@
-﻿## What is for loop in Python?
+﻿We are going to do improvements to the code. But before improving the code, you need to understand the `for` loop.
+
+
+## What is for loop in Python?
 
 The for loop in Python is used to iterate over a sequence ([list](https://www.programiz.com/python-programming/list),  [tuple](https://www.programiz.com/python-programming/tuple),  [string](https://www.programiz.com/python-programming/string)) or other iterable objects. Iterating over a sequence is called traversal.
 

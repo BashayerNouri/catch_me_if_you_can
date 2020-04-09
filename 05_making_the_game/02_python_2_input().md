@@ -1,5 +1,9 @@
 ﻿<br>
 
+Before jumping into our code and explaining what we are trying to build, you need to understand some concepts first.
+
+---
+
 In python. The `input()` function allows user input.
 
 This line of code will display a message prompting the user for input. The program will stop at this point until the user writes his input and presses  `enter`. After that, That input will be saved in the variable.

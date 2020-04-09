@@ -1,4 +1,12 @@
-﻿## What is while loop in Python?
+﻿<br>
+
+We are going to add number of tries to our code. But before doing that, you need to understand some concepts first.
+
+![t](https://i.ibb.co/hc48zrf/t.gif)
+
+
+
+## What is while loop in Python?
 
 The while loop in Python is used to iterate over a block of code as long as the test expression (condition) is true.
 

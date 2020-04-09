@@ -1,4 +1,11 @@
-﻿
+﻿<br>
+
+And we are done with the lessons. 
+
+Let's start building...
+
+![t](https://i.ibb.co/hc48zrf/t.gif)
+
 # Trello
 > Move card  `As a player, I have a specific number of tries`  from the  `Backlog`  to the  `Doing`  list.
 
