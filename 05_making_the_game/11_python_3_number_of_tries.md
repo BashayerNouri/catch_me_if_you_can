@@ -29,22 +29,19 @@ print(len(random_word) * (" _"))
 # A `while` loop that breaks only if the number of `tries` equals `zero`
 while tries > 0:
     print("\nYou have %s tries." % tries)
-    guess = input("\nEnter one letter or the full word: ").lower()
+    guess = input("\nEnter a full word: ").lower()
 
     if len(guess) == len(random_word):
         if guess == random_word:
-            print()
-            print("Congratulations! the word is %s" % random_word)
+            print("\nCongratulations! the word is %s" % random_word)
             break
 
         else:
-            print()
-            print("Something is not part of the word, try again.")
+            print("\nSomething is not part of the word, try again.")
             tries -=1
 
     else:
-        print()
-        print("%s lenght does not equal to %s letters, try another!" % (guess,len(random_word)))
+        print("\n%s lenght does not equal to %s letters, try another!" % (guess,len(random_word)))
 
 ```
 <br>

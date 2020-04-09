@@ -1,4 +1,6 @@
-﻿We are going to do improvements to the code. But before improving the code, you need to understand the `for` loop.
+﻿<br>
+
+First, we are going to do improvements to the code. But before improving the code, you need to understand the `for` loop.
 
 
 ## What is for loop in Python?

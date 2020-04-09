@@ -1,6 +1,6 @@
 ﻿<br>
 
-Before jumping into our code and explaining what we are trying to build, you need to understand some concepts first.
+Before jumping into our code and explaining what we are trying to build next, you need to understand some concepts first.
 
 ---
 

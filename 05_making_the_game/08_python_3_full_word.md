@@ -14,25 +14,24 @@ Find the `catch-me-if-you-can/catch_me_if_you_can.py` file, and add the followin
 random_word = "cinema"
 
 # A welcome message
-print()
-print("Welcome to Catch Me If You Can")
-print("Get ready")
-print("Starting the game...")
-print("Selecting a word...")
+messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
+for messsage in messsages:
+    print (messsage)
 
 # prints out the word length
 print("\nThe word contains %s letters." % len(random_word))
-print(len(random_word) * " _")
+print(len(random_word) * (" _"))
 
 guess = input("\nEnter a full word: ").lower()
 
 # check the user input
-if len(guess) != len(random_word):
-    print("\noh no, your word lenght does not equal to the secret word!")
-elif guess == random_word:
-    print("\nCongratulations! the word is \"%s\"" % random_word)
+if len(guess) == len(random_word):
+    if guess == random_word:
+        print("\nCongratulations! the word is %s" % random_word)
+    else:
+        print("\nSomething is not part of the word, try again.")
 else:
-    print("\nWrong. You lost, try again")
+    print("\n%s lenght does not equal to %s letters, try another!" % (guess,len(random_word)))
 
 ```
 
@@ -44,12 +43,13 @@ else:
 guess = input("\nEnter a full word: ").lower()
 
 # check the user input
-if len(guess) != len(random_word):
-    print("\noh no, your word lenght does not equal to the secret word!")
-elif guess == random_word:
-    print("\nCongratulations! the word is \"%s\"" % random_word)
+if len(guess) == len(random_word):
+    if guess == random_word:
+        print("\nCongratulations! the word is %s" % random_word)
+    else:
+        print("\nSomething is not part of the word, try again.")
 else:
-    print("\nWrong. You lost, try again")
+    print("\n%s lenght does not equal to %s letters, try another!" % (guess,len(random_word)))
 ```
 <br>
 
@@ -66,11 +66,13 @@ Now. look carefully at this code and try to understand it.
 
 First, we will save the player input in a variable called `guess`. Then, we will check the variable case:
 
- - If the length of the variable `guess` is **not** the same as the length of the secret word. For example, the player entered "cinemaaa" and the word is "cinema". Then, a warning message will be printed.
+   - If the length of the variable `guess` is the same length as the secret word. It will enter the another `if..else` statement.
+   
+      - Which is, if the variable, `guess` is the same as the secret word. Then, a winning message will be printed.
+      
+      - Else, if the variable, `guess` is **not** the same as the secret word. Then, a winning message will be printed.
   
- - If the variable, `guess` is the same as the secret word. Then, a winning message will be printed.
-  
- -  Any other cases. That means the player lost the game.
+  - Else, for example the length of the variable `guess` is **not** the same as the length of the secret word. For example, the player entered "cinemaaa" and the word is "cinema". Then, a warning message will be printed.
 
 
 ---
