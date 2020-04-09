@@ -63,19 +63,19 @@ So what we did?
       ```
 
  
- - If the player added the wrong full word, it will minimize the variable `tries` by one.
+ - Then, if the player added the wrong full word, it will minimize the variable `tries` by one.
  
-    At this part:
+    **At this part:**
     ```python
     else:
        print("\nSomething is not part of the word, try again.")
        tries -=1
     ```
-    We added:
+    **We added:**
     ```python
     tries -=1
     ```
-    Same as:
+    **Same as:**
     ```python
     tries = tries - 1
     ```
