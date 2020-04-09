@@ -51,17 +51,25 @@ So what we did?
 
  **We added the following:**
 
- - We created a variable called `tries` to specify the number of attempted up to `10` tries.
+ - We created a variable called `tries` to specify the number of attempted up to `5` tries.
+    ```python
+    tries = 5
+    ```
 
- - `print` the variable `tries`.
- 
- - We created a `while` loop that breaks only if the number of `tries` equals `zero`, which means you have lost the game.
+ - Then `print` the variable `tries`.
+    ```python
+    print("\nYou have %s tries." % tries)
+      ```
+
  
  - If the player added the wrong full word, it will minimize the variable `tries` by one.
     ```python
     tries -=1
     ```
-
+ - And last, we created a `while` loop that breaks only if the number of `tries` equals `zero`, which means you have lost the game.
+   ```python
+    while tries > 0
+    ```
 ----------
 
 ### Git
