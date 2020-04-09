@@ -1,8 +1,7 @@
 ﻿
-Now we are going to explain to you  string formatting and `len()` function.
+Now we are going to explain to you  string formatting and the `len()` function.
 
 ---
-So what are variables?
 
 Strings in Python have a unique built-in operation that can be accessed with the `%` operator. This lets you do simple positional formatting very easily. 
 
