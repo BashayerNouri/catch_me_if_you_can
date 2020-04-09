@@ -1,4 +1,13 @@
-﻿Programming languages offer a method of storing data for reuse. If there is a greeting we want to present, a date we need to reuse, or a user ID we need to remember we can create a  _variable_  which can store a value. In Python, we  _assign_  variables by using the equals sign (`=`).
+﻿
+Before jumping into our code and explaining what we are trying to build, you need to understand some concepts first.
+
+Now we are going to explain to you variables.
+
+So what are variables?
+
+---
+
+Programming languages offer a method of storing data for reuse. If there is a greeting we want to present, a date we need to reuse, or a user ID we need to remember we can create a  _variable_  which can store a value. In Python, we  _assign_  variables by using the equals sign (`=`).
 
 ## Let's Start
 

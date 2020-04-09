@@ -1,9 +1,6 @@
-﻿<br>
+﻿
 
-
-Now, are you done practicing? 
-
-Yes? Okay...
+So now we are done with the lessons. So let's start building.
 
 Find the `catch-me-if-you-can/catch_me_if_you_can.py` file.
 
@@ -115,5 +112,5 @@ This code print this `_` character based on the number of letters in the string.
 So the output will be:
 
 
-![3](https://i.ibb.co/3RHcR0t/3.gif)
+![we](https://i.ibb.co/K5z0mVy/we.gif)
 

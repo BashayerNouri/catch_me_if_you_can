@@ -1,4 +1,10 @@
-﻿Strings in Python have a unique built-in operation that can be accessed with the `%` operator. This lets you do simple positional formatting very easily. 
+﻿
+Now we are going to explain to you  string formatting and `len()` function.
+
+---
+So what are variables?
+
+Strings in Python have a unique built-in operation that can be accessed with the `%` operator. This lets you do simple positional formatting very easily. 
 
 Here’s a simple example:
 
