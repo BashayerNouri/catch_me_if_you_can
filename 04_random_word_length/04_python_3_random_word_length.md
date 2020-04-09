@@ -1,6 +1,8 @@
-﻿
+﻿<br>
 
-So now we are done with the lessons. So let's start building.
+And we are done with the lessons. Let's start building.
+
+---
 
 Find the `catch-me-if-you-can/catch_me_if_you_can.py` file.
 
