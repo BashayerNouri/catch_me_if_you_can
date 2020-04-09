@@ -68,11 +68,11 @@ Now. look carefully at this code and try to understand it.
 
 First, we will save the player input in a variable called `guess`. Then, we will check the variable case:
 
-   - If the length of the variable `guess` is the same length as the secret word. It will enter the another `if..else` statement.
+   - If the length of the variable `guess` is the same length as the secret word. It will enter the other `if..else` statement.
    
-      - Which is, if the variable, `guess` is the same as the secret word. Then, a winning message will be printed.
+      - Which is, if the variable `guess`, is the same as the secret word. Then, a winning message will be printed.
       
-      - Else, if the variable, `guess` is **not** the same as the secret word. Then, a winning message will be printed.
+      - Else, if the variable `guess`, is **not** the same as the secret word. Then, a warning message will be printed.
   
   - Else, for example the length of the variable `guess` is **not** the same as the length of the secret word. For example, the player entered "cinemaaa" and the word is "cinema". Then, a warning message will be printed.
 
