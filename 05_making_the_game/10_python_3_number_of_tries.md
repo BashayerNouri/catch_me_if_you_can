@@ -83,6 +83,11 @@ So what we did?
    ```python
     while tries > 0
     ```
+---
+## Trello
+
+> Move card  `As a player, I have a specific number of tries`   to the `Done`  list .
+> 
 ----------
 
 ### Git
