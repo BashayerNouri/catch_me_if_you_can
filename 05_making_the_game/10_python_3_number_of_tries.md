@@ -57,11 +57,22 @@ So what we did?
     tries = 5
     ```
 
- - Then `print` the variable `tries`.
+ - Then, `print` the variable `tries`.
     ```python
     print("\nYou have %s tries." % tries)
       ```
+- Then, if the player added the right full word, it will `break` the loop,
 
+    ***At this part***
+   ```python
+   if guess == random_word:
+        print("\nCongratulations! the word is %s" % random_word)
+        break
+   ```
+   ***We added:***
+   ```python
+   break
+   ```
  
  - Then, if the player added the wrong full word, it will minimize the variable `tries` by one.
  
