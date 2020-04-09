@@ -70,12 +70,6 @@ while tries > 0:
 ```
 So what we added? 
 
-We added an available called `letters_guessed` that contains an empty list.
-
-```python
-letters_guessed = []
-```
-
 We added the following `if...else` case:
 ```python
 elif guess in letters_guessed:
@@ -88,39 +82,12 @@ A new `if...else` statement that does the following:
  - Check if the player  already guessed the letter by checking if the input `guess` is in the `letters_guessed` list or not
  
 
- ---
- And in this part from our previous sections:
-```python
-if not guess.isalpha():
-     print("\n\'%s\' is not a letter, enter a letter!\n" % guess)
-     print("\nLetters Guessed: %s\n"  %  letters_guessed)
-```
-
-and
-
-```python
-elif guess not in random_word:
-    print("\n\'%s\' is not part of the word, try another letter.\n"  % guess)
-    tries -=  1
-    letters_guessed.append(guess)
-    print("\nLetters Guessed: %s\n"  %  letters_guessed)
-```
-
-We added the following:
-```python
-print("\nLetters Guessed: %s\n"  %  letters_guessed)
-```
-A `print` statement that:
-
-- `print` the `letters_guessed` list so we can keep viewing this list and remind the players of their entered letters.
-
-
 ---
 Also, pay attention. We added this statement right before checking if the letter is wrong.
 
 Let me give you a scenario to why we did that:
 
-Let's say the player entered a wrong letter and then he added the same wrong letter again. If we added this statement right after checking if the letter is wrong, the program will go into the first if statement case and will not enter the second if statement (that it check if the letter is gussed). So the output will be like this:
+Let's say the player entered a wrong letter and then he added the same wrong letter again. If we added this statement right after checking if the letter is wrong, the program will go into the first if statement case and will not enter the second if statement case (the one that check if the letter is gussed). So the output will be like this:
 
 ![gussed](https://i.ibb.co/KmM2Wrc/gussed.gif)
 

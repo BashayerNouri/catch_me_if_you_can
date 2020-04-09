@@ -99,7 +99,7 @@ while tries > 0:
 
 So what we added? 
 
-We added an available called `letters_guessed` that contains an empty list.
+We added a available called `letters_guessed` that contains an empty list.
 
 ```python
 letters_guessed = []

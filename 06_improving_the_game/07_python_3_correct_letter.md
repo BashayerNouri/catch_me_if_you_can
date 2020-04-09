@@ -1,7 +1,7 @@
 ﻿
 
 # Trello
-> Move card  `As a player, I can know if I added the right full word.`  from the  `Backlog`  to the  `Doing`  list.
+> Move card  `As a player, I can know if I added the right letter.`  from the  `Backlog`  to the  `Doing`  list.
 
 ----------
 
@@ -85,7 +85,7 @@ while tries > 0:
     else:
         print("\n%s lenght does not equal to %s letters, try another!" % (guess,len(random_word)))
 ```
-We added the following `if...else` case:
+We added the following:
 ```python
 else:
   print("\nWell done, that letter exists in the word!\n")
@@ -93,7 +93,7 @@ else:
   print("\nLetters Guessed: %s\n" % letters_guessed)
 ```
 
-A final statement that does the following:
+A final statement:
 
  - Which means if all other cases are not `True`, that means player added a correct letter.
  
@@ -111,7 +111,7 @@ Means:
 
 ## Trello
 
-> Move card  `As a player, I can know if I added the right full word.`   to the `Done`  list .
+> Move card  `As a player, I can know if I added the right letter.`   to the `Done`  list .
 > 
 ----------
 
