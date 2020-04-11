@@ -1,6 +1,6 @@
 ﻿<br>
 
-First, we are going to do improvements to the code. But before improving the code, you need to understand the `for` loop.
+Now, we are going to do improvements to the code. But before improving the code, you need to understand the `for` loop.
 
 
 ## What is for loop in Python?
@@ -58,3 +58,8 @@ bed
 
 Now Open your ```script.py``` file and practice what we learned so far before going into the next task. 
 
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python script.py
+    

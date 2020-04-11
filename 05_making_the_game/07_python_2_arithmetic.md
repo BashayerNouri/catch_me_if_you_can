@@ -62,3 +62,8 @@ print(number)
 
 Now Open your ```script.py``` file and practice what we learned so far.
 
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python script.py
+    

@@ -3,7 +3,6 @@
 
 ----------
 
-
 And we are done with the lessons. 
 
 ***Now let's start building the following:***
@@ -23,9 +22,11 @@ random_word = "cinema"
 tries = 5
 
 # A welcome message
-messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-for messsage in messsages:
-    print (messsage)
+print()
+print("Welcome to Catch Me If You Can")
+print("Get ready")
+print("Starting the game...")
+print("Selecting a word...")
 
 # prints out the word length
 print("\nThe word contains %s letters." % len(random_word))
@@ -99,6 +100,15 @@ So what we did?
     while tries > 0
     ```
 ---
+Run your file and make sure everything is working perfectly.
+
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python catch_me_if_you_can.py
+   
+   
+   
 ## Trello
 
 > Move card  `As a player, I have a specific number of tries`   to the `Done`  list .

@@ -72,3 +72,8 @@ The answer is.......
 
 Now Open your ```script.py``` file and practice what we learned so far before going into the next task. 
 
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python script.py
+    

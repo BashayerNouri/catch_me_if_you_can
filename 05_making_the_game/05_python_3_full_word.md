@@ -18,10 +18,12 @@ This is how `catch-me-if-you-can/catch_me_if_you_can.py` file will look like:
 ```python
 random_word = "cinema"
 
-# A welcome message
-messsages = ["\nWelcome to Catch Me If You Can","Get ready","Starting the game...","Selecting a word..."]
-for messsage in messsages:
-    print (messsage)
+# A welcome message  
+print()
+print("Welcome to Catch Me If You Can")
+print("Get ready")
+print("Starting the game...")
+print("Selecting a word...")
 
 # prints out the word length
 print("\nThe word contains %s letters." % len(random_word))
@@ -112,6 +114,8 @@ guess = input("\nEnter a full word: ").lower()
 To know more about escape characters [click here](https://www.w3schools.com/python/gloss_python_escape_characters.asp).
 
 ---
+
+Run your file and make sure everything is working perfectly.
 
 ***To run the file:***
 

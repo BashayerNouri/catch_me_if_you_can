@@ -48,6 +48,11 @@ print('Hello, ' + name)
 
 Now before going into the next section. Open your ```script.py``` file and practice. 
 
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python script.py
+    
 You can also play with this with your family and friends!
 
 

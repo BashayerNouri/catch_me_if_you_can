@@ -29,3 +29,8 @@ print(2!=10)
 
 Now before going into the next section. Open your ```script.py``` file and practice. 
 
+***To run the file:***
+
+    $ cd catch-me-if-you-can
+    $ python script.py
+    
