@@ -1,8 +1,7 @@
 ﻿
-This was a very straight forward. Make sure that it's working properly and the correct information is showing. If all is good, move the card and push the code. Well done!
+Make sure that it's working properly and the correct information is showing. If all is good, move the card and push the code. Well done!
 
-That was a lot, so well done!!
-
+----
 Let’s go through everything we’ve done in this chapter:
 
 -   We learned about dictionary.
@@ -11,7 +10,6 @@ Let’s go through everything we’ve done in this chapter:
 -   We built the difficulty level functionality.
   
 
-Make sure that it’s working properly and the correct information is showing.
 
 ## Trello
 

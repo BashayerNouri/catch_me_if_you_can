@@ -23,7 +23,9 @@ and instead, add the following:
     selection = False
 ```
 ---
-Now, before going into the game difficulty functionality let's add the following `print()` messages in the `main()`:
+Now, before going into the game difficulty functionality, we will `print()` some messages with suspends (delays) execution for 1 second between each message using `time.sleep(1)`
+
+In the `main()`, add the following:
 
 ```python
     level = { 
