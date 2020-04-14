@@ -1,14 +1,12 @@
 ﻿
 In this chapter, you'll add difficulty levels to your game.
 
-Right now we have 10 tries/attempts fixed, so let's make it more fun and specify the number of attempts based on the player level selection.
+Right now we have 5 tries/attempts fixed, so let's make it more fun and specify the number of attempts based on the player level selection.
 
 **The difficulty levels are:**
 
 >  Easy (10 attempts) 
->
 >  Intermediate (6 attempts) 
->
 >  Difficult (2 attempts)
 
 Sounds fun right? Let's get started.
